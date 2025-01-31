@@ -77,7 +77,7 @@ fun UnitConverterApp() {
             onOptionSelected = { targetUnit = it }
         )
         Spacer(modifier = Modifier.width(70.dp))
-        Text(text = "Result: ${(result)}", style = MaterialTheme.typography.body1)
+        Text(text = "Result: ${String.format("%.2f",result)}", style = MaterialTheme.typography.body1)
 
         Button(onClick = {
             val value = valueInput.text.toDoubleOrNull()
