@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StartKotlin</string>
+    <string name='test'>This is a longer string that wont have to be typed multiple times but I can use the variable test.</string>
+</resources>
