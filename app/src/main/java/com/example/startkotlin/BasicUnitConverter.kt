@@ -27,8 +27,8 @@ enum class WeightUnit(val factorToG: Double, val displayUnit: String) {
     MCG(1e-6,"mcg"),
     MG(1e-3,"mg"),
     G(1.0,"g"),
-    OZ(0.0283495,"oz"),
-    LBS(0.453592,"lbs"),
+    OZ(28.3495,"oz"),
+    LBS(453.592,"lbs"),
     KG(1e3,"kg"),
     MT(1e6,"mt");
 
